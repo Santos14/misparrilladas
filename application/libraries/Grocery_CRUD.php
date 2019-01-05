@@ -3575,7 +3575,7 @@ class Grocery_CRUD extends grocery_CRUD_States
 	private $read_fields_checked	= false;
 
 	protected $default_theme		= 'flexigrid';
-	protected $language				= null;
+	protected $language				= 'spanish';
 	protected $lang_strings			= array();
 	protected $php_date_format		= null;
 	protected $js_date_format		= null;
