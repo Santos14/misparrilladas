@@ -17,7 +17,7 @@ class Motivo_actividad extends CI_Controller {
 
 		$crud = new grocery_CRUD();
                 $crud->set_table('motivo_actividad');
-                
+
                 $output = $crud->render();
                 $output->title = 'Motivos de la Actividad';
 
