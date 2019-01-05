@@ -22,4 +22,11 @@ class Welcome extends CI_Controller {
 	{
 		$this->load->view('welcome_message');
 	}
+
+	public function adminlte()
+	{
+		$this->output->set_template('adminlte');//Carga el template
+		//$this->load->view('welcome_message');
+	}
+
 }
